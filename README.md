@@ -112,7 +112,8 @@ password
 
 The system follows a relational database structure where each user can create and manage multiple tasks.
 
-![ER Diagram](https://raw.githubusercontent.com/codewithzodi/task-management-system/main/er-diagram.png)---
+![ER Diagram](https://raw.githubusercontent.com/codewithzodi/task-management-system/main/er-diagram.png)
+---
 
 ### 📖 Data Dictionary
 
