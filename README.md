@@ -6,7 +6,7 @@
 Modern Full Stack Task Manager built with Flask & MySQL
 </p>
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-Web_Framework-black?style=for-the-badge&logo=flask)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-UI-purple?style=for-the-badge&logo=bootstrap)
