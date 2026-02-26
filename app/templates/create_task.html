@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form method="POST">
+
+<input name="title"
+class="form-control mb-2"
+placeholder="Task Title"
+required>
+
+<textarea name="description"
+class="form-control mb-2"
+placeholder="Description">
+</textarea>
+
+<input type="date"
+name="due_date"
+class="form-control mb-2">
+
+<button class="btn btn-success">
+Create Task
+</button>
+
+</form>
+
+{% endblock %}
