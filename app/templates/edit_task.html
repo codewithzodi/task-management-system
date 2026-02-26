@@ -8,17 +8,27 @@
 value="{{task[1]}}"
 class="form-control mb-2">
 
+<textarea name="description"
+class="form-control mb-2">
+{{task[2]}}
+</textarea>
+
+<textarea name="remarks"
+class="form-control mb-2">
+{{task[5]}}
+</textarea>
+
 <select name="status"
 class="form-control mb-2">
 
-<option>Pending</option>
-<option>In Progress</option>
-<option>Completed</option>
+<option {% if task[4]=='Pending' %}selected{% endif %}>Pending</option>
+<option {% if task[4]=='In Progress' %}selected{% endif %}>In Progress</option>
+<option {% if task[4]=='Completed' %}selected{% endif %}>Completed</option>
 
 </select>
 
 <button class="btn btn-warning">
-Update
+Update Task
 </button>
 
 </form>
