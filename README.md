@@ -205,11 +205,6 @@ task-manager/
 
 ---
 
-👨‍💻 Developer
-
-Yash Kumar (Zodi Bhai)
-Python Developer | Cyber Security Enthusiast
-
 ---
 
 ## 👨‍💻 Developer Credits
@@ -221,7 +216,6 @@ Python Developer | Cyber Security Enthusiast
 
 - 🔗 GitHub: [@CodeWithZodi](https://github.com/codewithzodi)  
 - 📧 Email: mailzodibhai@gmail.com  
-- 🛠️ Role: Full Stack Development, Backend Architecture & System Design  
 
 ---
 
