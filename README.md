@@ -104,6 +104,53 @@ password
 | Updated By | User |
 
 ---
+---
+
+## 🗄️ Database Design
+
+### 📌 ER Diagram
+
+The system follows a relational database structure where each user can create and manage multiple tasks.
+
+![ER Diagram](https://raw.githubusercontent.com/codewithzodi/task-management-system/main/er-diagram.png)---
+
+### 📖 Data Dictionary
+
+#### Users Table
+
+| Column Name | Data Type | Description |
+|-------------|-----------|-------------|
+| id | INT (PK) | Unique User Identifier |
+| name | VARCHAR(100) | User Full Name |
+| email | VARCHAR(100) | User Email |
+| password | VARCHAR(255) | Encrypted Password |
+| role | VARCHAR(20) | User Role (Admin/User) |
+
+#### Tasks Table
+
+| Column Name | Data Type | Description |
+|-------------|-----------|-------------|
+| id | INT (PK) | Unique Task Identifier |
+| title | VARCHAR(255) | Task Title |
+| description | TEXT | Task Description |
+| due_date | DATE | Task Deadline |
+| status | VARCHAR(50) | Task Status |
+| remarks | TEXT | Additional Notes |
+| created_on | DATETIME | Creation Timestamp |
+| updated_on | DATETIME | Last Updated Timestamp |
+| created_by | INT (FK) | Task Creator ID |
+| updated_by | INT (FK) | Last Updater ID |
+
+---
+
+### ⚡ Index Documentation
+
+- Primary Key indexing is applied on `id` fields for faster record retrieval.
+- Foreign Key indexing is implemented on `created_by` and `updated_by`.
+- Search operations are optimized using indexed task title and status fields.
+
+---
+
 
 ## 🔐 Authentication System
 
