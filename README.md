@@ -134,8 +134,13 @@ Admin Capabilities:
 
 ```bash
 git clone https://github.com/codewithzodi/task-management-system.git
+```
+
 2️⃣ Navigate Project
+```bash
 cd task-management-system
+```
+
 3️⃣ Install Dependencies
 pip install -r requirements.txt
 4️⃣ Setup Database
@@ -210,7 +215,3 @@ https://github.com/codewithzodi
 ✅ FINAL STEP
 
 VS Code terminal:
-
-git add README.md
-git commit -m "Professional GitHub README"
-git push origin main
