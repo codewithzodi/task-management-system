@@ -6,15 +6,11 @@
 Modern Full Stack Task Manager built with Flask & MySQL
 </p>
 
-<p align="center">
-
-<img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python">
-<img src="https://img.shields.io/badge/Flask-Web_Framework-black?style=for-the-badge&logo=flask">
-<img src="https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql">
-<img src="https://img.shields.io/badge/Bootstrap-UI-purple?style=for-the-badge&logo=bootstrap">
-<img src="https://img.shields.io/badge/MVC-Architecture-success?style=for-the-badge">
-
-</p>
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
+![Flask](https://img.shields.io/badge/Flask-Web_Framework-black?style=for-the-badge&logo=flask)
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-UI-purple?style=for-the-badge&logo=bootstrap)
+![MVC](https://img.shields.io/badge/MVC-Architecture-success?style=for-the-badge)
 
 ---
 
@@ -33,11 +29,9 @@ The system supports **multi-user authentication**, **task tracking**, and a **po
 
 ## 🏗️ MVC Architecture
 
-
 Model → MySQL Database
 View → HTML + Bootstrap Templates
 Controller → Flask Routes
-
 
 ---
 
@@ -166,24 +160,24 @@ python run.py
 http://127.0.0.1:5000
 ```
 
-###📁 Project Structure
+### 📁 Project Structure
 ```bash
 task-manager/
 │
 ├── app/
-│   ├── __init__.py
-│   ├── routes.py
-│   ├── db.py
-│   └── config.py
-│
-├── templates/
-│   ├── base.html
-│   ├── index.html
-│   ├── create_task.html
-│   ├── edit_task.html
-│   ├── login.html
-│   ├── register.html
-│   └── admin_dashboard.html
+│ ├── init.py
+│ ├── routes.py
+│ ├── db.py
+│ ├── config.py
+│ │
+│ └── templates/
+│ ├── base.html
+│ ├── index.html
+│ ├── create_task.html
+│ ├── edit_task.html
+│ ├── login.html
+│ ├── register.html
+│ └── admin_dashboard.html
 │
 ├── run.py
 ├── requirements.txt
