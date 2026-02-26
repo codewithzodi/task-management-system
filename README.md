@@ -166,8 +166,8 @@ python run.py
 http://127.0.0.1:5000
 ```
 
-
-📁 Project Structure
+###📁 Project Structure
+```bash
 task-manager/
 │
 ├── app/
@@ -189,43 +189,50 @@ task-manager/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
-### ✅ CRUD Operations
+---
 
-Operation	Status
-Create	✅
-Read	✅
-Update	✅
-Delete	✅
-Search	✅
-🚀 Future Enhancements
+## 🧩 CRUD Operations
 
-Dark Mode
+| Operation | Endpoint | Method | Description |
+|------------|-----------|--------|-------------|
+| Create | `/create` | POST | Create a new task |
+| Read | `/` | GET | View all tasks |
+| Update | `/edit/<id>` | POST | Update existing task |
+| Delete | `/delete/<id>` | GET | Delete a task |
+| Search | `/search` | POST | Search tasks by title or status |
 
-Analytics Charts
-
-Email Notifications
-
-REST API
-
-Mobile Optimization
+---
 
 👨‍💻 Developer
 
 Yash Kumar (Zodi Bhai)
 Python Developer | Cyber Security Enthusiast
 
-🔗 GitHub
-https://github.com/codewithzodi
+---
 
-⭐ Project Status
+## 👨‍💻 Developer Credits
 
-✅ Completed
-✅ Admin Controlled
-✅ Premium UI
-✅ Portfolio Ready
+### 🚀 Project Lead & Developer
 
-<p align="center"> ⭐ If you like this project, give it a star! </p> ```
-✅ FINAL STEP
+**Yash Kumar (Zodi Bhai)**  
+💻 Python Developer | 🔐 Cyber Security Enthusiast  
 
-VS Code terminal:
+- 🔗 GitHub: [@CodeWithZodi](https://github.com/codewithzodi)  
+- 📧 Email: mailzodibhai@gmail.com  
+- 🛠️ Role: Full Stack Development, Backend Architecture & System Design  
+
+---
+
+### 🤝 Contributors
+
+Currently, this project is independently developed and maintained.
+
+> Contributions, suggestions, and improvements are welcome for future versions.
+
+---
+
+⭐ *If you found this project useful, consider giving it a star on GitHub!*
+
+---
