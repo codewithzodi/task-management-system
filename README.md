@@ -257,7 +257,7 @@ task-manager/
 💻 Python Developer | 🔐 Cyber Security Enthusiast  
 
 - 🔗 GitHub: [@CodeWithZodi](https://github.com/codewithzodi)  
-- 📧 Email: mailzodibhai@gmail.com  
+- 📧 Email: kumar.yash200430@gmail.com  
 
 ---
 
